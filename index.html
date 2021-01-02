@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+			<title>Cock Drink Landing Page</title>
+			<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+			<link rel="stylesheet" href="style.css">
+		</head>
+		<body>
+			<section>
+				<div class="circle"></div>
+				<header>
+					<a href="#"><img src="./resources/images/logo2.png" class="logo"></a>
+					<div class="toggle"></div>
+					<ul class="navigation">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Menu</a></li>
+						<li><a href="#">What's New</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</header>
+				<div class="content">
+					<div class="textBox">
+						<h2>Taste the Feeling</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<a href="#">Learn More</a>
+					</div>
+		<div class="imgBox">
+						<!-- Swiper -->
+  		<div class="swiper-container">
+            <div class="swiper-wrapper">
+		      <div class="swiper-slide"><img src="./resources/images/pic1.jpg"></div>
+		      <div class="swiper-slide"><img src="./resources/images/pic2.jpg"></div>
+		      <div class="swiper-slide"><img src="./resources/images/pic1.jpg"></div>
+		      <div class="swiper-slide"><img src="./resources/images/pic2.jpg"></div>
+		      </div>
+		 </div>
+					</div>
+				</div>
+				<ul class="sci">
+					<li><a href="#"><img src="./resources/images/gmail.png"></a></li>
+					<li><a href="#"><img src="./resources/images/gmail.png"></a></li>
+					<li><a href="#"><img src="./resources/images/gmail.png"></a></li>
+				</ul>
+			</section>
+
+			<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+			<script>
+            var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+           el: '.swiper-pagination',
+         },
+         loop: true,
+      });
+     function myFunction() {
+     var x = document.getElementById("");
+     if (x.className === "topnav") {
+      x.className += " responsive";
+     } else {
+    x.className = "topnav";
+  }
+}
+
+  </script>
+		</body>
+		</html>		
